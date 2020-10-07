@@ -7,10 +7,10 @@ namespace SportsStore.Domain.Concrete
 {
     public class EmailSettings
     {
-        public string MailToAddress = "vkruume@gmail.com";
-        public string MailFromAddress = "vkruume@gmail.com";
+        public string MailToAddress = "artemgorodnitsev@gmail.com";
+        public string MailFromAddress = "artemgorodnitsev@gmail.com";
         public bool UseSsl = true;
-        public string Username = "vkruume@gmail.com";
+        public string Username = "artemgorodnitsev@gmail.com";
         public string Password = "";
         public string ServerName = "smtp.example.com";
         public int ServerPort = 587;
