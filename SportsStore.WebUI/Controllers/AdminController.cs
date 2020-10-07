@@ -32,7 +32,7 @@ namespace SportsStore.WebUI.Controllers
             }
             else
             {
-          // there is something wrong with the data values
+                // there is something wrong with the data values
                 return View(product);
             }
         }
