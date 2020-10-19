@@ -47,6 +47,11 @@ namespace SportsStore.WebUI.Controllers
             }
         }
 
+        public ViewResult Create()
+        {
+            return View("Edit", new Product());
+        }
+
         [HttpPost]
         public ActionResult Delete(int productId)
         {
